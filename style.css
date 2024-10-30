@@ -1,0 +1,658 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Playwrite GB S", cursive;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+/* @@@@@@@ Utility classes @@@@@@@ */
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+}
+.lg-heading {
+  font-size: 3.5rem;
+}
+
+.md-heading {
+  font-size: 1.7rem;
+}
+
+.text-md {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text-red {
+  color: orangered;
+}
+.text-light {
+  color: #eee0d7;
+}
+.text-black {
+  color: #485a63;
+}
+.color-grey {
+  color: #555;
+}
+.color-gray {
+  color: #505a61;
+}
+.bg-dark {
+  background: #263238;
+}
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  margin: 0.5em 0;
+}
+
+.btn-primary {
+  background-color: #f1c8a1;
+  border-radius: 10rem;
+  margin-top: 2rem;
+}
+
+.btn-primary:hover {
+  background: #f7a37d;
+}
+
+.btn-secondary {
+  background: #f1c8a1;
+  border: 0.2rem solid #485a63;
+  border-radius: 10rem;
+  color: #485a63;
+  margin-top: 3rem;
+}
+
+.btn-secondary2 {
+  margin-top: 5rem;
+}
+
+.btn-secondary:hover {
+  background: #fdad7e;
+}
+.font-weight {
+  font-weight: 900;
+}
+
+/* @@@@@@@@@@@@@@@ MAIN HEADER STYLING @@@@@@@@@@@@@@@ */
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-bar {
+  height: 7rem;
+  background: #fa4811da;
+  width: auto;
+}
+
+.nav-bar .logo {
+  float: left;
+  padding-left: 25rem;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.nav-bar .nav-items .li-nav-items {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.nav-bar .nav-items {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 10rem;
+}
+
+.nav-bar a:link,
+.nav-bar a:visited {
+  color: #f4f4f4;
+}
+.nav-bar a {
+  padding-bottom: 0.3rem;
+}
+
+.nav-bar a:hover {
+  border-bottom: 0.1rem solid #fff;
+}
+
+.nav-bar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* @@@@@@@@@@ header styling @@@@@@@@@@ */
+
+.header-content {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.header-content h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.header-content p {
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+/* @@@@@@@@@@@ Showcase styling @@@@@@@@@@@ */
+
+.showcase {
+  background: #f5b987;
+  padding: 7rem 20rem;
+}
+
+.row {
+  height: 35rem;
+  margin-bottom: 5rem;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.301);
+  color: #2c3236;
+}
+.row1 .img-box,
+.row2 .text-box {
+  float: left;
+  width: 50%;
+  color: #2c3236;
+}
+
+.row2 .img-box,
+.row1 .text-box {
+  float: right;
+  width: 50%;
+  color: #2c3236;
+}
+
+.row .img-box {
+  height: 100%;
+}
+
+.row .text-box {
+  padding: 3rem;
+  background: #fadebb;
+  height: 100%;
+}
+
+.row .img-box img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* @@@@@@@@@@@@@@@ Feature styling @@@@@@@@@@@@@@@ */
+
+.feature {
+  padding: 9rem 0rem;
+  background: #d8c8b9;
+}
+.container2 {
+  margin: 0 18rem;
+}
+
+.box-wraper {
+  box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.498);
+}
+
+.box {
+  width: 33.33%;
+  float: left;
+  padding: 2rem;
+  text-align: center;
+}
+.box1,
+.box3 {
+  background: #5b686e;
+  color: #fff;
+}
+.box2 {
+  background: #db5d14;
+  color: #fff;
+}
+.box-wraper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.large-h {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.p1 {
+  font-size: 1.3rem;
+}
+
+/* @@@@@@@@@@@@@@@@@@@ Footer @@@@@@@@@@@@@@@@@@@@@@@  */
+
+.footer {
+  background: #5b686e;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.footer i {
+  padding: 1rem;
+}
+/* @@@@@@@@@@@@@@@ ABOUT PAGE STYLING @@@@@@@@@@@@@@@@@@ */
+
+.about {
+  padding: 5rem 7rem;
+}
+.about-line {
+  border-bottom: 0.6rem solid #db5d14;
+  font-weight: bolder;
+  font-size: 36px;
+}
+/* @@@@@@@@@@@@@@  ABOUT UL @@@@@@@@@@@@@@@ */
+
+.about-ul {
+  text-align: center;
+  margin-top: 1rem;
+}
+.about-ul .left {
+  float: left;
+  width: 50%;
+}
+.about-ul .right {
+  float: right;
+  width: 50%;
+}
+.about-ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.about-ul li::before {
+  content: "\2713";
+  color: #e63946;
+  padding-right: 1rem;
+  font-weight: 900;
+}
+
+.counts .count-items {
+  margin-top: 1rem;
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* @@@@@@@@@@@@@@ Banner styling @@@@@@@@@@@@@@ */
+
+.banner {
+  background: linear-gradient(25deg, #d68a4c, #f3772f 50%);
+  margin-top: 14rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #00000057;
+}
+.btn-banner {
+  border: 0.4rem solid white;
+  display: inline-block;
+  color: #f4f4f4;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 0.3rem 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.banner-line {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #f4f4f4;
+  padding: 0.5rem 2.5em;
+}
+.banner-left {
+  float: left;
+  width: 60%;
+}
+.banner-right {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+.banner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* @@@@@@@@@@@@@@@ CONTACT PAGE STYLING @@@@@@@@@@@@@@@@ */
+
+.contact-form {
+  padding: 2.5rem 0;
+  font-size: 2rem;
+  background: #ffe6cf;
+}
+.contact-hd {
+  font-weight: 900;
+}
+.form-wrapper .company-adress {
+  width: 43%;
+  float: left;
+  background: #fcbfa3;
+  padding: 1rem;
+  margin-left: 5.5rem;
+  border: 1px solid #485a63;
+}
+.form-wrapper .company-adress i {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.form-wrapper .company-adress h2 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.form-wrapper .adress-group {
+  margin-bottom: 1rem;
+}
+.form-wrapper .company-adress img {
+  max-width: 94%;
+  min-height: 10rem;
+  object-fit: cover;
+  object-position: right;
+  height: 25rem;
+  width: 98%;
+}
+
+.form-wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%% FORM STYLING %%%%%%%%%%%%%%%%%%%%%%%% */
+
+.form-wrapper .form {
+  width: 43%;
+  float: right;
+  background: #fcbfa3;
+  padding: 1rem;
+  margin-right: 5.5rem;
+  border: 1px solid #485a63;
+}
+.form h2::after {
+  content: "";
+  display: block;
+  border: 0.3rem solid #e63946;
+  width: 100%;
+  margin-bottom: 0rem;
+}
+.form-wrapper .form label {
+  display: block;
+}
+.form-wrapper .form input {
+  padding: 0.5rem;
+  width: 100%;
+  height: 2.8rem;
+  border-radius: 10px;
+}
+.form-wrapper .form .form-group {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.form-wrapper .form textarea {
+  width: 100%;
+  height: 13rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.form-btn {
+  display: block;
+  margin: 0.1rem auto;
+  padding: 0.5em 0.3em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: rgb(216, 36, 4);
+  color: #fff;
+  border: 1px solid #485a63;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@ MEDIA QUERY@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@@@ NAV-BAR RESPONSIVE @@@@@@@@@@@@@@@@@@@@ */
+
+  .nav-bar {
+    height: auto;
+  }
+
+  .nav-bar .nav-items,
+  .nav-bar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@ SHOWCASE RESPONSIVE @@@@@@@@@@@@@@@@@@@@@@@ */
+
+  .showcase {
+    padding: 7rem 3rem;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* @@@@@@@@@@@@@@@ FEATURE RESPONSIVE @@@@@@@@@@@@@@@@ */
+
+  .container2 {
+    margin: 0 1rem;
+  }
+
+  .feature .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.498);
+  }
+
+  .feature .box2,
+  .box3 {
+    margin-top: 5rem;
+  }
+
+  .box-wraper {
+    box-shadow: none;
+  }
+
+  /* @@@@@@@@@@@@@@@ ABOUT PAGE RESPONSIVE @@@@@@@@@@@@@@@@ */
+
+  .container3 {
+    margin: 0 -4rem;
+  }
+  .banner .banner-left,
+  .banner .banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* @@@@@@@@@@@@@@@ CONTACT PAGE RESPONIVE @@@@@@@@@@@@@@@@@         */
+
+  .form-wrapper .company-adress {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+    margin-left: 0;
+  }
+
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@@@ NAV-BAR RESPONSIVE @@@@@@@@@@@@@@@@@@@@ */
+
+  .nav-bar {
+    height: auto;
+  }
+
+  .nav-bar .nav-items,
+  .nav-bar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  /* @@@@@@@@@@@@@@@@@@@ SHOWCASE RESPONSIVE @@@@@@@@@@@@@@@@@@@@@@@ */
+
+  .showcase {
+    padding: 7rem 3rem;
+  }
+  .row p {
+    font-size: 2rem;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* @@@@@@@@@@@@@@@ FEATURE RESPONSIVE @@@@@@@@@@@@@@@@ */
+
+  .container2 {
+    margin: 0 1rem;
+  }
+
+  .feature .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.498);
+  }
+
+  .feature .box2,
+  .box3 {
+    margin-top: 5rem;
+  }
+
+  .box-wraper {
+    box-shadow: none;
+  }
+
+  /* @@@@@@@@@@@@@@@ ABOUT PAGE RESPONSIVE @@@@@@@@@@@@@@@@ */
+
+  .container3 {
+    margin: 0 -4rem;
+  }
+  .banner .banner-left,
+  .banner .banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* @@@@@@@@@@@@@@@ CONTACT PAGE RESPONIVE @@@@@@@@@@@@@@@@@         */
+
+  .form-wrapper .company-adress {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+    margin-left: 0;
+  }
+
+  .form-wrapper .form {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  p {
+    font-size: 2.1rem;
+  }
+
+  .row h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+}
+
+.container2 {
+  margin: 0 1rem;
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 70vmax;
+  }
+  .showcase {
+    padding: 7rem 2rem;
+  }
+
+  .container2 {
+    margin: 0 8rem;
+  }
+}

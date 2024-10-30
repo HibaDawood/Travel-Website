@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar bg-dark">
+      <h1 class="logo lg-heading">CT</h1>
+      <ul class="nav-items">
+        <li class="li-nav-items contact-li"><a href="./Home.html">Home</a></li>
+        <li class="li-nav-items contact-li">
+          <a href="./About.html">About</a>
+        </li>
+        <li class="li-nav-items contact-li">
+          <a href="./Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="contact-form text-black">
+      <div class="container2">
+        <div class="form-wrapper">
+          <div class="company-adress">
+            <div class="adress-group">
+              <i class="fas fa-map-marker-alt fa-2x text-red"></i>
+              <h2 class="text-md text-grey">Location</h2>
+              <p class="p1 nam">Defence, karachi, Pakistan</p>
+            </div>
+            <div class="adress-group">
+              <i class="fas fa-envelope fa-2x text-red"></i>
+              <h2 class="text-md text-grey">Email</h2>
+              <p class="p1">HibaDawood@mycompany.com</p>
+            </div>
+            <div class="adress-group">
+              <i class="fas fa-phone-square-alt fa-2x text-red"></i>
+              <h2 class="text-md text-grey">Call</h2>
+              <p class="p1">+86 012 3456 6789</p>
+            </div>
+            <img
+              src="contact-img.jpg"
+              class="contact-img"
+              alt="company image"
+            />
+          </div>
+          <form action="" class="form">
+            <h2 class="lg-heading text-black contact-hd">Contact Us</h2>
+            <p class="text-grey p1">
+              Let as know your questions, suggestion and concern by filling out
+              the contact form below.
+            </p>
+
+            <div class="form-group">
+              <label for="Username">Username</label>
+              <input type="text" id="Username" required />
+            </div>
+            <div class="form-group">
+              <label for="Email">Email-adress</label>
+              <input type="Email" id="Email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">phone-number</label>
+              <input type="text" id="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <textarea
+                name=""
+                id="Message"
+                cols="30"
+                rows="10"
+                placeholder="message type here"
+              ></textarea>
+            </div>
+            <button type="submit" class="form-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- @@@@@@@@@@@@@@@@@@@ Footer @@@@@@@@@@@@@@@@@@@@@@@ -->
+
+    <footer class="footer">
+      <div class="social-media-icon">
+        <i class="fa-brands fa-facebook fa-3x"></i>
+        <i class="fa-brands fa-square-instagram fa-3x"></i>
+        <i class="fa-brands fa-whatsapp fa-3x"></i>
+
+        <p class="p1">China Travel &COPY; 2024. All Right reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
